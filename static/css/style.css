@@ -1,0 +1,61 @@
+.boxCarta {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    height: 550px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 18px;
+}
+
+.boxInterna {
+    width: 370px;
+    background-color: rgb(250, 223, 183);
+    height: 490px;
+    margin-top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.titleDiv {
+    background-color: rgb(250, 242, 231);
+    display: flex;
+    width: 97%;
+    justify-content: space-around;
+    margin-top: 10px;
+    filter: drop-shadow(0px 0px 3px black);
+    border-radius: 50px;
+    margin-left: 4px;
+    border: solid 1px rgb(71, 62, 57);
+}
+
+.name {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.custoMana {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.divImgPersonagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 93%;
+    margin-left: 12px;
+    margin-top: 3px;
+    border: solid 2px rgb(71, 62, 57);
+    filter: drop-shadow(0px 0px 1px black);
+}
