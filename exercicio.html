@@ -4,41 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Pokemon</title>
+    <title>Card Magic</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <div class="boxCarta">
-        <div class="boxInterna">
-            <div class="titleDiv">
-                <h1 class="name">Nome do Personagem</h1>
-                <p class="custoMana">Mana</p>
+    
+    <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="1000" data-tilt-perspective="1000">
+        
+        <div class="blackBackground">
+            <div class="textureBg2">
+                <div class="contornoLeveTitleBox">
+                    <div class="titleBox">
+                        <h1 class="characterName">Serra Angel</h1>
+                            <div class="manaContainer">
+                                <div class="numberMana">
+                                    <p class="numberManaCost">3</p>
+                                </div>
+                                <img src="/static/img/manacost.png" alt="Mana Cost" class="manaCostSimbol1">
+                                <img src="/static/img/manacost.png" alt="Mana Cost" class="manaCostSimbol2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contornoLeveImg">
+                        <div>
+                            <img src="/static/img/serraangel.png" alt="Character IMG" class="characterImg">
+                        </div>
+                    </div>
+
+                    <div class="contornoLeveTypeInformation">
+                        <div class="typeInformation">
+                            <h3 class="type">Creature - Angel</h3>
+                            <img src="/static/img/serraangelexpansionsymbol.png" class="expansionSymbol">
+                        </div>
+                    </div>
+
+                    <div class="contornoLeveTextArea">
+                        <div class="textArea">
+                            <h3 class="habilities">Flying, vigilance</h3>
+                            <hr>
+                            <p class="textInformations">The angel remembers her past lives like dreams.
+                                Her song held up meadows. Her blade drove back darkness. Her wings carried 
+                                her acrosss the ages </p>
+                        </div>
+                    </div>
+
+                    <div class="contornoLevePower">
+                        <div class="power">
+                            <h3 class="powerNumber">4/4</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="footerInformations">
+                <p class="collectionNumber">033/269 U</p>
+                <p class="seiLa">DOM.EN & Dorato Giancola</p>
+                <p class="copyright">™ & c 2018 Wizards of the Course</p>
             </div>
 
-            <div class="divImgPersonagem">
-                <img src="static/img/serraangel.png" class="imgPersonagem">
             </div>
 
-            <div class="linhaTipo">
-                <h3 class="typeline">Creature - Sei lá</h3>
-                <p class="expansionSymbol">*</p>
-            </div>
-            <div class="textBox">
-                <h4 class="habilidades"> Flying, vigilance</h4>
-                <p class="caracteristicas">Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Facere, magnam atque.
-                    Omnis pariatur vel sapiente corrupti! Adipisci nobis
-                    maiores molestiae ducimus voluptatum repellendus,
-                    dolorem hic rem architecto at quisquam id.</p>
-            </div>
-            <div class="poder">
-                <h5 class="numPoder">4/4</h5>
-            </div>
         </div>
-        <p class="numColecionador">036/269 U</p>
-        <p class="autor">DOM * EN & Dorato Giancola</p>
-        <p class="copyright"> tm $ @ 2018 Wizards of the Coast</p>
+        
     </div>
-    <script src="static/js/main.js"></script>
+
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
 </body>
 </html>
