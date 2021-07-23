@@ -1,3 +1,7 @@
+html {
+  background-color: #2c2c2c;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +16,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .blackBackground {
@@ -217,7 +224,7 @@ body {
 
 .habilities {
   position: relative;
-  width: 189px;
+  width: 300px;
   height: 31px;
   left: 6px;
   top: 20px;
