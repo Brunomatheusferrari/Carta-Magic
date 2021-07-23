@@ -1,9 +1,15 @@
+html{
+    background-color: rgb(44, 44, 44);
+}
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .blackBackground {
@@ -222,7 +228,7 @@ body {
 
 .habilities {
     position: relative;
-    width: 189px;
+    width: 300px;
     height: 31px;
     left: 6px;
     top: 20px;
